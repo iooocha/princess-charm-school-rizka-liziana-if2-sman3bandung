@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Princess Charm Highschool</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="image/logo barbie.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <style>
+        #slider{
+            overflow: hidden;
+        }
+        #slider figure{
+            position: relative;
+            width: 500%;
+            margin: 0;
+            left: 0;
+            animation: 20s slider infinite;
+        }
+        #slider figure img {
+            float: left;
+            width: 20%;
+        }
+        @keyframes slider {
+            0%{
+                left: 0;
+            }
+            20%{
+                left: 0;
+            }
+            25%{
+                left: -100%;
+            }
+            45%{
+                left: -100%;
+            }
+            50%{
+                left: -200%;
+            }
+            70%{
+                left: -200%;
+            }
+            75%{
+                left: -300%;
+            }
+            95%{
+                left: -300%;
+            }
+            100%{
+                left: -400%;
+            }
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+    input{
+        height: 20px;
+        width: 300px;
+        margin: 10px;
+        cursor: pointer;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="slider">
+            <figure>
+                <img src="image/header1.jpg" width="150px" height="auto">
+                <img src="image/header2.jpg" width="150px" height="auto">
+                <img src="image/header3.jpg" width="150px" height="auto">
+                <img src="image/header4ril.jpg" width="150px" height="auto">
+                <img src="image/header.webp" width="150px" height="auto">
+            </figure>
+        </div>
+        <h1>Welcome To Princess Barbie Charm School</h1>
+    </header>
+    <nav-bar>
+        <nav-container>
+            <nav-logo>
+                <img src="image/logo barbie.png" width="70px" height="70px" style="float: left; ">
+                <h2>Princess Charm School</h2>
+            </nav-logo>
+            <nav-item>
+                <ul class="navlinks">
+                    <li class="navlink"><a href="index.html">Home</a></li>
+                    <li class="navlink"><a href="aboutus.html">About Us</a></li>
+                    <li class="navlink"><a href="academic.html">Academic</a></li>
+                    <li class="navlink"><a href="student.html">Student</a></li>
+                    <li class="navlink"><a href="staff.html">Staff</a></li>
+                    <li class="navlink"><a href="contact.html">Contact</a></li>
+                    <div class="animation start-home"></div>
+                </ul>
+            </nav-item>    
+        </nav-container>
+    </nav-bar>
+    <section1>
+        <container>
+            <button class="card1">
+                <a href="schoolhistory.html">School History</a>
+            </button>
+            <button class="card1">
+                <a href="applynow.html">Apply Now</a>
+            </button>
+            <button class="card1">
+                <a href="extracurricular.html">Extracurricular</a>
+            </button>
+            <button class="card1">
+                <a href="alumni.html">Alumni</a>
+            </button>
+        </container>
+    </section1>
+    <container-apply>
+            <section-apply>
+            <h4 class="text">Apply to Barbie Charm School Now!</h4>
+            <p>Applicants are selected based on their potential to grow into future princesses or royal assistants, focusing on character traits such as empathy, responsibility, and teamwork. The school seeks students who can uphold the values of fairness, compassion, and resilience while also learning royal etiquette and charm. Admissions may involve recommendations, a lottery system, or magical selection depending on the kingdom's traditions.</p>
+            <div class="container">
+                    <div class="entryarea">
+                        <div class="labelline">First Name:</div>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="entryarea">
+                        <div class="labelline">Last Name:</div>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="entryarea">
+                        <div class="labelline">Previous School:</div>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="entryarea">
+                        <div class="labelline">Parents/Guardian First Name:</div>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="entryarea">
+                        <div class="labelline">Parents/Guardian Last Name:</div>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="entryarea">
+                        <div class="labelline">Contact Phone</div>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="entryarea">
+                        <a href="#"><input style=" border-radius: 10px; font-family: 'Times New Roman', Times, serif; height: 40px; font-size: 20px; background-color: rgb(253, 169, 183); margin-left: 300px;" type="submit" name="Submit" value="Submit"></a>
+                    </div>
+            </div>
+        </section-apply>
+    </container-apply>    
+        <footer>
+            <h5>&copy; Copyright 2024 by IT SMAN 3 Bandung. All Right Reserved.</h5>
+        </footer>
+</body>
+</html>

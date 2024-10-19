@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Princess Charm Highschool</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="image/logo barbie.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <style>
+        #slider{
+            overflow: hidden;
+        }
+        #slider figure{
+            position: relative;
+            width: 500%;
+            margin: 0;
+            left: 0;
+            animation: 20s slider infinite;
+        }
+        #slider figure img {
+            float: left;
+            width: 20%;
+        }
+        @keyframes slider {
+            0%{
+                left: 0;
+            }
+            20%{
+                left: 0;
+            }
+            25%{
+                left: -100%;
+            }
+            45%{
+                left: -100%;
+            }
+            50%{
+                left: -200%;
+            }
+            70%{
+                left: -200%;
+            }
+            75%{
+                left: -300%;
+            }
+            95%{
+                left: -300%;
+            }
+            100%{
+                left: -400%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="slider">
+            <figure>
+                <img src="image/header1.jpg" width="150px" height="auto">
+                <img src="image/header2.jpg" width="150px" height="auto">
+                <img src="image/header3.jpg" width="150px" height="auto">
+                <img src="image/header4ril.jpg" width="150px" height="auto">
+                <img src="image/header.webp" width="150px" height="auto">
+            </figure>
+        </div>
+        <h1>Welcome To Princess Barbie Charm School</h1>
+    </header>
+    <nav-bar>
+        <nav-container>
+            <nav-logo>
+                <img src="image/logo barbie.png" width="70px" height="70px" style="float: left; ">
+                <h2>Princess Charm School</h2>
+            </nav-logo>
+            <nav-item>
+                <ul class="navlinks">
+                    <li class="navlink"><a href="index.html">Home</a></li>
+                    <li class="navlink"><a href="aboutus.html">About Us</a></li>
+                    <li class="navlink"><a href="academic.html">Academic</a></li>
+                    <li class="navlink"><a href="student.html">Student</a></li>
+                    <li class="navlink"><a href="staff.html">Staff</a></li>
+                    <li class="navlink"><a href="contact.html">Contact</a></li>
+                    <div class="animation start-home"></div>
+                </ul>
+            </nav-item>    
+        </nav-container>
+    </nav-bar>
+        <section1>
+            <container>
+                <button class="card1">
+                    <a href="schoolhistory.html">School History</a>
+                </button>
+                <button class="card1">
+                    <a href="applynow.html">Apply Now</a>
+                </button>
+                <button class="card1">
+                    <a href="extracurricular.html">Extracurricular</a>
+                </button>
+                <button class="card1">
+                    <a href="alumni.html">Alumni</a>
+                </button>
+            </container>
+        </section1>
+        <div class="section-text">
+            <container-us style="width: 100%; margin: 0; height: auto; display: block;">
+                <p><div class="section-us">
+                    <container-us>
+                        <h1 class="pageTitle">
+                            STUDENT PAGE
+                        </h1>
+                    </container-us>
+                </div>
+                <div class="section-text">
+                    <container-us>
+                        <p>Only students from Princess Charm School may access the student page. Please enter the ID provided by the school along with your password. If you encounter any issues, contact the service team via the navigation bar. This student page is designed to share private information, assignments, and exclusive events, accessible only to members of Princess Charm School. We kindly ask that you keep all content on this page confidential, as it is intended solely for students and staff of our prestigious school.</p>
+                    </container-us>
+                </div></p>
+            </container-us>
+        </div>
+        <div class="login-box">
+            <div class="login-header">
+                <header-box><h6>Login</h6></header-box>
+            </div>
+            <div class="input-box">
+                <input type="text" class="input-field" placeholder="ID" autocomplete="off" required>
+            </div>
+            <div class="input-box">
+                <input type="text" class="input-field" placeholder="Password" autocomplete="off" required>
+            </div>
+            <div class="forgot">
+                <section-box>
+                    <input type="checkbox" id="check">
+                    <label for="check">Remember Me</label>
+                </section-box>
+                <br><section-box>
+                    <a href="#">Forgot Password</a>
+                </section-box>
+            </div>
+            <div class="input-submit">
+                <button class="submit-btn" id="submit"></button>
+                <label for="submit"><a href="student.html">Sign In</a></label>
+            </div>
+            <div class="sign-up-link">
+                <p>Don't have account? <a href="signup.html">Sign Up</a> </p>
+            </div>
+        </div>
+        <footer>
+            <h5>&copy; Copyright 2024 by IT SMAN 3 Bandung. All Right Reserved.</h5>
+        </footer>
+</body>
+</html>

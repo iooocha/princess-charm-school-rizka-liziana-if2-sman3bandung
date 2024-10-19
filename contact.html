@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Princess Charm Highschool</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="image/logo barbie.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <style>
+        #slider{
+            overflow: hidden;
+        }
+        #slider figure{
+            position: relative;
+            width: 500%;
+            margin: 0;
+            left: 0;
+            animation: 20s slider infinite;
+        }
+        #slider figure img {
+            float: left;
+            width: 20%;
+        }
+        @keyframes slider {
+            0%{
+                left: 0;
+            }
+            20%{
+                left: 0;
+            }
+            25%{
+                left: -100%;
+            }
+            45%{
+                left: -100%;
+            }
+            50%{
+                left: -200%;
+            }
+            70%{
+                left: -200%;
+            }
+            75%{
+                left: -300%;
+            }
+            95%{
+                left: -300%;
+            }
+            100%{
+                left: -400%;
+            }
+        }
+        .card-al h4{
+            color: white;
+        }
+        .card-al p{
+        margin-top: 0;
+        margin-bottom: 0;
+        color: #ea8497;
+        font-family: "Spicy Rice", serif;
+        }
+        .card-al a{
+            text-decoration: dashed;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="slider">
+            <figure>
+                <img src="image/header1.jpg" width="150px" height="auto">
+                <img src="image/header2.jpg" width="150px" height="auto">
+                <img src="image/header3.jpg" width="150px" height="auto">
+                <img src="image/header4ril.jpg" width="150px" height="auto">
+                <img src="image/header.webp" width="150px" height="auto">
+            </figure>
+        </div>
+        <h1>Welcome To Princess Barbie Charm School</h1>
+    </header>
+    <nav-bar>
+        <nav-container>
+            <nav-logo>
+                <img src="image/logo barbie.png" width="70px" height="70px" style="float: left; ">
+                <h2>Princess Charm School</h2>
+            </nav-logo>
+            <nav-item>
+                <ul class="navlinks">
+                    <li class="navlink"><a href="index.html">Home</a></li>
+                    <li class="navlink"><a href="aboutus.html">About Us</a></li>
+                    <li class="navlink"><a href="academic.html">Academic</a></li>
+                    <li class="navlink"><a href="student.html">Student</a></li>
+                    <li class="navlink"><a href="staff.html">Staff</a></li>
+                    <li class="navlink"><a href="contact.html">Contact</a></li>
+                    <div class="animation start-home"></div>
+                </ul>
+            </nav-item>    
+        </nav-container>
+    </nav-bar>
+        <section1>
+            <container>
+                <button class="card1">
+                    <a href="schoolhistory.html">School History</a>
+                </button>
+                <button class="card1">
+                    <a href="applynow.html">Apply Now</a>
+                </button>
+                <button class="card1">
+                    <a href="extracurricular.html">Extracurricular</a>
+                </button>
+                <button class="card1">
+                    <a href="alumni.html">Alumni</a>
+                </button>
+            </container>
+        </section1>
+        <container-alumni>
+            <section-alumni>
+                <h3>Contact</h3>
+                <p>At Princess Charm School, we are proud to have a dedicated team of educators and staff members who work tirelessly to create a positive and supportive learning environment for our students. Each member of our staff brings unique skills, experience, and a passion for education that helps our students grow both academically and personally.</p>
+            </section-alumni>
+        </container-alumni>
+        <container-al>
+            <section-al style="padding-left: 150px; width: 97%;">
+                <div class="card-al">
+                    <img src="image/damedevin.jpg">
+                    <h4 style="color: white;">Dame Devin</h4>
+                    <p><a href="damedevin.html" style="margin-left: 65px; color: rgb(255, 204, 208); margin-top: 0; margin-bottom: 0;">More Info</a></p>
+                </div>
+                <div class="card-al">
+                    <img src="image/gracefairy.jpg">
+                    <h4>Fairy Assistant</h4>
+                    <p><a href="fairyassistant.html" style="margin-left: 65px; color: rgb(255, 204, 208); margin-top: 0; margin-bottom: 0;">More Info</a></p>
+                </div>
+                <div class="card-al">
+                    <img src="image/missprivet.jpg">
+                    <h4>Mrs. Privet</h4>
+                    <p><a href="msprivet.html" style="margin-left: 65px; color: rgb(255, 204, 208); margin-top: 0; margin-bottom: 0;">More Info</a></p>
+                </div>
+            </section-al>
+        </container-al>
+        <footer>
+            <h5>&copy; Copyright 2024 by IT SMAN 3 Bandung. All Right Reserved.</h5>
+        </footer>
+    </body>
+</html>
